@@ -29,6 +29,7 @@ namespace AppInsightsTelemetryDemo.Telemetry
         {
             _telemetryClient.TrackEvent(eventName, _eventProperties);
             _eventProperties.Clear();
+
         }
     }
 }
